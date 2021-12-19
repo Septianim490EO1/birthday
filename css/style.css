@@ -256,13 +256,13 @@ body {
 }
 
 /* Media Queries */
-@media screen and (max-height: 1200px) and (max-width: 1600px) {
+@media screen and (max-height: 1000px){
   .six .hat {
     left: 50%;
   }
 }
 
-@media screen and (max-height: 1200px) and (max-width: 1600px)  {
+@media screen and (max-height: 800px){
   .six .hat {
     left: 50%;
    width: 200px;
@@ -270,7 +270,7 @@ body {
   }
 }
 
-@media screen and (max-height: 1200px) and (max-width: 1600px)  {
+@media screen and (max-height: 700px){
   .six .hat {
     left: 50%;
     width: 200px;
@@ -278,7 +278,7 @@ body {
   }
 }
 
-@media screen and (max-height: 1200px) and (max-width: 1600px)  {
+@media screen and (max-height: 850px) and (max-width: 400px)  {
   .six .hat {
     left: 35%;
     width: 200px;
