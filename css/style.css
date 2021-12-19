@@ -1,0 +1,330 @@
+html {
+  box-sizing: border-box;
+  background-color: #DEB887;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 10px;
+  text-align: justify;
+
+}
+
+.container {
+  height: 100vh;
+  width: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  visibility: hidden;
+  position: relative;
+  overflow: hidden;
+}
+
+.container div.six {
+  top: 10vh;
+  z-index: 1;
+}
+
+.container div.seven,
+.container div.eight {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+
+.container > div {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20vh;
+}
+
+.one {
+  font-size: 3rem;
+  font-family:  comic sans MS, comic sans, cursive;
+}
+
+.name {
+  font-size: 2rem;
+  font-family: comic sans Ms, comic sans, cursive;
+}
+
+.two {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin: center;
+  font-family: comic sans Ms, cursive;
+}
+
+.three {
+  font-size: 3rem;
+  font-family: maker felt, monospace;
+}
+
+.four .text-box {
+  width: 600px;
+  margin: 0 auto;
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  background-color: khaki;
+}
+
+.text-box p {
+  font-family: URW chancery L, cursive;
+  margin: 20;
+  text-align: left top;
+}
+
+.text-box span {
+  visibility: hidden;
+}
+
+.text-box .fake-btn {
+  position: right;
+  right: 5px;
+  bottom: 5px;
+  color: #fff;
+  background-color: rgb(21, 161, 237);
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+
+.five p {
+  font-size: 2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-family: comic sans Ms, comic sans, cursive;
+}
+
+.idea-3 strong {
+  padding: 3px 5px;
+  border-radius: 3px;
+  font-family: comic sans Ms, comic sans, cursive;
+  display: inline-block;
+}
+
+.five .idea-5 {
+  font-size: 4rem;
+  font-family: comic sans Ms, comic sans, cursive;
+}
+
+.idea-5 span,
+.idea-6 span,
+.wish-hbd span {
+  display: inline-block;
+  font-family: comic sans Ms, comic sans, cursive;
+}
+
+.idea-6 span {
+  font-size: 15rem;
+  font-family: comic sans Ms, comic sans, cursive;
+}
+
+.six {
+  position: relative;
+  font-family: comic sans Ms, comic sans, cursive;
+}
+
+.six img {
+  display: inline-block;
+  max-width: 100%;
+  height: 350px;
+  font-family: comic sans Ms, comic sans, cursive;
+}
+
+.six .hat {
+  position: absolute;
+  width: 80px;
+  top: -35px;
+  left: 41.5%;
+  font-family: comic sans Ms, comic sans, cursive;
+  /* transform: scale(0.1); */
+}
+
+.baloons img {
+  display: inline-block;
+  position: absolute;
+}
+
+.baloons img:nth-child(even) {
+  left: -30%;
+}
+
+.baloons img:nth-child(odd) {
+  right: -20%;
+}
+
+.baloons img:nth-child(3n + 0) {
+  left: 10%;
+}
+
+.eight svg {
+  width: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  z-index: -1;
+  fill: #F08080;
+  font-family: comic sans Ms, comic sans, cursive;
+}
+
+.eight svg:nth-child(1) {
+  top: 7vh;
+  left: 5vw;
+  fill: #F08080;
+}
+
+.eight svg:nth-child(2) {
+  top: 23vh;
+  left: 35vw;
+  fill: #FF0000;
+}
+
+.eight svg:nth-child(3) {
+  top: 33vh;
+  left: 23vw;
+  fill: #FF6347;
+}
+
+.eight svg:nth-child(4) {
+  top: 43vh;
+  left: 57vw;
+  fill: #66DCAA;
+}
+
+.eight svg:nth-child(5) {
+  top: 68vh;
+  left: 7vw;
+  fill: #ADD8E6;
+}
+
+.eight svg:nth-child(6) {
+  top: 42vh;
+  left: 77vw;
+  fill: #DAA520;
+}
+
+.eight svg:nth-child(7) {
+  top: 68vh;
+  left: 83vw;
+  fill: #8B0000;
+}
+
+.eight svg:nth-child(8) {
+  top: 86vh;
+  left: 37vw;
+  fill: #008B8B;
+}
+
+.eight svg:nth-child(9) {
+  top: 94vh;
+  left: 87vw;
+  fill: #FAEBD7;
+}
+
+.wish-hbd {
+  font-size: 3em;
+  margin: 0;
+  color : #FAEBD7;
+  text-transform: uppercase;
+  font-family: comic sans Ms, comic sans, cursive;
+}
+
+.wish h5 {
+  font-weight: lighter;
+  font-size: 2rem;
+  margin: 10px 0 0;
+  font-family: comic sans Ms, comic sans, cursive;
+}
+
+.nine p {
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: comic sans Ms, comic sans, cursive;
+}
+
+#replay {
+  z-index: 3;
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (max-height: 1200px) and (max-width: 1600px) {
+  .six .hat {
+    left: 50%;
+  }
+}
+
+@media screen and (max-height: 1200px) and (max-width: 1600px)  {
+  .six .hat {
+    left: 50%;
+    width: 800px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-height: 1200px) and (max-width: 1600px)  {
+  .six .hat {
+    left: 50%;
+    width: 800px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-height: 1200px) and (max-width: 1600px)  {
+  .six .hat {
+    left: 35%;
+    width: 200px;
+    height: 300px;
+
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+
+  .four .text-box {
+    width: 90%;
+  }
+
+  .text-box .fake-btn {
+    right: 5px;
+    bottom: -38px;
+  }
+
+  .idea-5 span {
+    display: block;
+  }
+
+  .idea-6 span {
+    font-size: 10rem;
+  }
+
+  .six .hat {
+    width: 800px;
+    height: 600px;
+  }
+
+  .wish-hbd {
+    font-size: 2.2em;
+  }
+
+  .wish h5 {
+    font-size: 1.4rem;
+  }
+
+  .nine p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+  }
+}
+
