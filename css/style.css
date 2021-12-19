@@ -265,16 +265,16 @@ body {
 @media screen and (max-height: 1200px) and (max-width: 1600px)  {
   .six .hat {
     left: 50%;
-    width: 800px;
-    height: 600px;
+   width: 200px;
+    height: 300px;
   }
 }
 
 @media screen and (max-height: 1200px) and (max-width: 1600px)  {
   .six .hat {
     left: 50%;
-    width: 800px;
-    height: 600px;
+    width: 200px;
+    height: 300px;
   }
 }
 
